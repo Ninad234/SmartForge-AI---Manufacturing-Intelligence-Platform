@@ -385,7 +385,7 @@ curl -X POST "http://localhost:8000/predict" \
 ```
 
 ---
-
+<!-- 
 ## 🎯 Future Enhancements
 
 ### Phase 2 Roadmap
@@ -404,14 +404,13 @@ curl -X POST "http://localhost:8000/predict" \
 - [ ] Predictive maintenance scheduling
 - [ ] Root cause analysis automation
 
----
+--->
 
 ## 👥 Team & Contributors
 
 **Data Science Team**
-- Project Lead & ML Engineer
-- Data Analyst
-- DevOps Engineer
+- Project Leader (Ninad Gawade) and
+-  team members Prince Yadav, Purva Tare, Sanica Zore, Shritej Dumbre and Virendra Sonkule)
 
 ---
 
@@ -433,8 +432,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact & Support
 
 For questions, issues, or contributions:
-- **Email**: datascienceteam@manufacturing.com
-- **GitHub**: github.com/manufacturing-ml
+- **Email**: ninadgawade149@gmail.com
+- **GitHub**: github.com/SmartForge-AI---Manufacturing-Intelligence-Platform
 - **Documentation**: Full docs in `/docs` folder
 
 ---
