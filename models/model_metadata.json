@@ -1,0 +1,10 @@
+{
+    "best_model": "Linear Regression",
+    "test_rmse": 3.1002328315033627,
+    "test_mae": 2.5022379484010657,
+    "test_r2": 0.936857767670387,
+    "test_mse": 9.611443609531356,
+    "n_features": 24,
+    "n_samples_train": 800,
+    "n_samples_test": 200
+}

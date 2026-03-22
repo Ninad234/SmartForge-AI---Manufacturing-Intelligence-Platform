@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  manufacturing-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: manufacturing-prediction-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models:ro
+      - ./data:/app/data:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.manufacturing.description=Manufacturing Output Prediction API"
+      - "com.manufacturing.version=1.0.0"
+
+networks:
+  default:
+    name: manufacturing-network
