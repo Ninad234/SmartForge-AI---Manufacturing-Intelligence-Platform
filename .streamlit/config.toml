@@ -1,0 +1,48 @@
+[theme]
+primaryColor="#667eea"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#f0f2f6"
+textColor="#262730"
+font="sans serif"
+
+[server]
+headless = true
+enableCORS = false
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+SmartForge-AI---Manufacturing-Intelligence-Platform/
+├── .streamlit/
+│   └── config.toml              
+├── api/
+│   ├── __pycache__/
+│   └── main.py
+├── data/
+│   ├── generate_dataset.py
+│   ├── manufacturing_dataset_1000_samples.csv
+│   └── streamlit_dashboard.py   ← YOUR DASHBOARD
+├── docker/
+│   ├── docker-compose.yml
+│   └── Dockerfile
+├── models/
+│   ├── best_model.pkl
+│   ├── feature_names.json
+│   ├── model_metadata.json
+│   └── scaler.pkl
+├── notebooks/
+│   ├── .ipynb_checkpoints/
+│   ├── manufacturing_analysis-checkpoint.ipynb
+│   └── manufacturing_analysis.ipynb
+├── presentation/
+│   └── create_presentation.js
+├── reports/
+│   ├── (all your .png files)
+│   ├── model_comparison.csv
+│   └── create_report.js
+├── venv/                        
+├── .gitignore                  
+├── QUICKSTART.md
+├── README.md                    
+└── requirements.txt            
