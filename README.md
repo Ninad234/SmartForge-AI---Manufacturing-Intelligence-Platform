@@ -9,20 +9,21 @@
 
 ### 📋 Project Overview
 
+
 This project was developed as a Data Science and Machine Learning capstone project to help manufacturing teams predict hourly equipment output and improve operational efficiency.
 
 The system analyzes machine parameters, environmental conditions, maintenance information, and operator-related factors to estimate production output in real time.
 
-Key Features
+## Key Features
 
-> 📈 Production output prediction
-> 🤖 Machine Learning model training and evaluation
-> ⚡ FastAPI REST API for real-time predictions
-> 🐳 Dockerized deployment
-> 📊 Exploratory Data Analysis (EDA)
-> 🎯 Feature engineering and preprocessing pipeline
-> 💡 AI-generated optimization recommendations
----
+📈 Production output prediction<br>
+🤖 Machine Learning model training and evaluation<br>
+⚡ FastAPI REST API for real-time predictions<br>
+🐳 Dockerized deployment<br>
+📊 Exploratory Data Analysis (EDA)<br>
+🎯 Feature engineering and preprocessing pipeline<br>
+💡 AI-generated optimization recommendations
+
 
 ## 🚀 Quick Start
 
@@ -240,7 +241,7 @@ manufacturing_project/
 
 Ninad Gawade
 
-GitHub: https://github.com/your-github-username
+GitHub: https://github.com/Ninad234
 
 ---
 
