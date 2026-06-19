@@ -14,10 +14,10 @@ This project was developed as a Data Science and Machine Learning capstone proje
 The system analyzes machine parameters, environmental conditions, maintenance information, and operator-related factors to estimate production output in real time.
 
 Key Features
-- 📈 Production output prediction
-- 🤖 Machine Learning model training and evaluation
-- ⚡ FastAPI REST API for real-time predictions
-- 🐳 Dockerized deployment
+* 📈 Production output prediction
+* 🤖 Machine Learning model training and evaluation
+* ⚡ FastAPI REST API for real-time predictions
+* 🐳 Dockerized deployment
 - 📊 Exploratory Data Analysis (EDA)
 - 🎯 Feature engineering and preprocessing pipeline
 - 💡 AI-generated optimization recommendations
